@@ -9,7 +9,7 @@ document.getElementById('applicationForm').addEventListener('submit', function (
 
   // Prepare the payload for Discord
   const payload = {
-    content: `**New Application Received!**\n\n**Name:** ${name}\n**Email:** ${email}\n**Message:**\n${message}`
+    content: `**New Feedback Received!**\n\n**Username:** ${name}\n**Favorite HICOM:** ${email}\n**Feedback:**\n${message}`
   };
 
   // Send data to Discord webhook
